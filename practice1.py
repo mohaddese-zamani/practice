@@ -1,7 +1,7 @@
-def practice1():
-    string = input("\n jomle vared kon. \n ")
-    j = string.split()
-    x = list(set(j))
-    print(x)
-    
+def practice1(sentence):
+    yekta = []
+    tartib_tekrar = {}
+
+    for i in sentence:
+        
 practice1()
