@@ -1,5 +1,6 @@
 import json
 import os
+
 def title_json():
 
     open_file = os.path.join(os.path.expanduser("~"), "Desktop", "home-page.txt")
