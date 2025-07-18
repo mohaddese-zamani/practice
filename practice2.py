@@ -21,8 +21,7 @@ def read_json():
 
 def title():
     for title_file in read_file.get("posts", []):
-        print(title_file.get("title"))
-    
+        print(title_file.get("title"))    
 
 def captions_file():
     captions = 0
@@ -30,14 +29,18 @@ def captions_file():
         captions += len(caption["caption"])
     print(captions)
 
+def name():
+    name_file = read_file.get("posts", [])
+    count = sum(1 for post in name_file if "name" in post.get("author", {}))
+    print(count)
+
 
 open_json()
 read_json()
-print(":عنوان های فایل\n")
+print("\n:عنوان های فایل")
 title()
-print("\nمجموع کپشن ها")
+print("\nمجموع کپشن های فایل")
 captions_file()
-
-
-
+print("\nمجموع تعداد نویسندگان فایل")
+name()
 
