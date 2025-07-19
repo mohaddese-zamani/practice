@@ -10,5 +10,29 @@ def practice1(sentence):
             yekta.append(i)
     return yekta, tartib_tekrar
 
+while True:
+    jomleh = input("\n\njomle ra vared konid or Enter ra bezanin\n ").strip()
+
+    if jomleh == "":
+        break
+
+    sentence = jomleh.split()
+    yekta, tartib_tekrar = practice1(sentence)
+    list_sorted_elements = sorted(num_elements.items(), key=lambda item: item[1], reverse=True)
+
+    print(f"kalamat yekta = {yekta}")
+    print(f"tartib tekrar kalamat =  {list_sorted_elements}")
+
+
+
+
+
+
+
+
+
+
+
+
 sentence = input("Enter your sentence: \n").split()
 yekta, tartib_tekrar = practice1(sentence)
