@@ -18,10 +18,10 @@ while True:
 
     sentence = jomleh.split()
     yekta, tartib_tekrar = practice1(sentence)
-    list_sorted_elements = sorted(num_elements.items(), key=lambda item: item[1], reverse=True)
+    tedad_kalamat = sorted(tartib_tekrar.items(), key=lambda item: item[1], reverse=True)
 
     print(f"kalamat yekta = {yekta}")
-    print(f"tartib tekrar kalamat =  {list_sorted_elements}")
+    print(f"tartib tekrar kalamat =  {tedad_kalamat}")
 
 
 
