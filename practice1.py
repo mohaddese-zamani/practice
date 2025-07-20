@@ -3,12 +3,17 @@ def practice1(sentence):
     tartib_tekrar = {}
 
     for i in sentence:
-        counter = sentence.count(i)
-        tartib_tekrar[i] = counter
+        shomaresh = sentence.count(i) 
         
-        if counter == 1:
+        if shomaresh == 1:
             yekta.append(i)
+
+
+        
+        tartib_tekrar[i] = shomaresh
+        
     return yekta, tartib_tekrar
+
 
 while True:
     try:
