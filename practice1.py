@@ -1,15 +1,13 @@
-def practice1(sentence):
+def practice1(jomleh):
     yekta = []
     tartib_tekrar = {}
 
-    for i in sentence:
-        shomaresh = sentence.count(i) 
-        
+    for i in jomleh:
+        shomaresh = jomleh.count(i) 
+
         if shomaresh == 1:
             yekta.append(i)
 
-
-        
         tartib_tekrar[i] = shomaresh
         
     return yekta, tartib_tekrar
@@ -17,12 +15,7 @@ def practice1(sentence):
 
 while True:
     try:
-        jomleh = input("\n\njomle ra vared konid or Enter ra bezanin\n ").strip()
-
-        if jomleh == "":
-            break
-
-        sentence = jomleh.split()
+        jomleh = input("\n\njomle ra vared konid\n ").split()
         yekta, tartib_tekrar = practice1(sentence)
         tedad_kalamat = sorted(tartib_tekrar.items(), key=lambda item: item[1], reverse=True)
 
