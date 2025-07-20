@@ -13,14 +13,16 @@ def practice1(jomleh):
 while True:
     try:
         jomleh = input("\njomle ra vared konid\n ").split()
+
         yekta, tartib_tekrar = practice1(jomleh)
+        
         tabdil_list = list(tartib_tekrar.items())
         list_moratab = sorted(tabdil_list, key = lambda x: x[1], reverse=True)
         
 
         
         print(f"kalamat yekta = {yekta}")
-        print(f"tartib tekrar kalamat =  {tartib_tekrar}")
+        print(f"tartib tekrar kalamat =  {list_moratab}")
         payan = input("آیا ادامه میدهید؟ بلی/خیر: ")
         if payan == "بلی":
             continue
@@ -28,4 +30,5 @@ while True:
             break
     except:
         pass
+
 
