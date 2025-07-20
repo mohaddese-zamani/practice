@@ -23,16 +23,3 @@ while True:
     print(f"kalamat yekta = {yekta}")
     print(f"tartib tekrar kalamat =  {tedad_kalamat}")
 
-
-
-
-
-
-
-
-
-
-
-
-sentence = input("Enter your sentence: \n").split()
-yekta, tartib_tekrar = practice1(sentence)
