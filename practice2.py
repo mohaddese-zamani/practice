@@ -1,13 +1,17 @@
 import json
 import os
 
-json_file = os.path.join(os.path.expanduser("~"), "Desktop", "home-page.txt")
-read_file = {}
+json_file = input("مسیر فایل را وارد کنید: \n")
+# E:\New folder\Git\project\practice\home.txt
+
 
 def open_json():
-    if not os.path.exists(json_file):
+    if os.path.exists(json_file):
+            return True
+    else:
         print("فایل مورد نظر پیدا نشد:", json_file)
         return False
+    
 
 def read_json():
     global read_file
@@ -20,27 +24,33 @@ def read_json():
         return False
 
 def title():
-    for title_file in read_file.get("posts", []):
+    for title_file in read_file.get("posts"):
         print(title_file.get("title"))    
 
 def captions_file():
-    captions = 0
-    for caption in read_file["posts"]:
-        captions += len(caption["caption"])
-    print(captions)
+    cap = 0
+    for captions in read_file["posts"]:
+        cap += len(captions["caption"])
+    print(cap)
 
 def name():
-    name_file = read_file.get("posts", [])
-    count = sum(1 for post in name_file if "name" in post.get("author", {}))
-    print(count)
+    name_file = read_file.get("posts")
+    tedad = 0
+    for i in name_file:
+        x = i.get("author")
+        if "name" in x:
+            tedad += 1
+    print(tedad)
 
 
-open_json()
-read_json()
-print("\n:عنوان های فایل")
-title()
-print("\nمجموع کپشن های فایل")
-captions_file()
-print("\nمجموع تعداد نویسندگان فایل")
-name()
-
+if __name__ == "__main__":
+    if not open_json():
+        exit()
+    if not read_json():
+        exit()
+    print("\n:عنوان های فایل")
+    title()
+    print("\nمجموع کپشن های فایل")
+    captions_file()
+    print("\nمجموع تعداد نویسندگان فایل")
+    name()
