@@ -1,8 +1,7 @@
 import json
 import os
 
-json_file = input("مسیر فایل را وارد کنید: \n")
-# E:\New folder\Git\project\practice\home.txt
+
 
 
 def open_json():
@@ -23,7 +22,7 @@ def read_json():
         print("خطا در خواندن فایل JSON")
         return False
 
-def title():
+def show_title():
     for title_file in read_file.get("posts"):
         print(title_file.get("title"))    
 
@@ -33,7 +32,7 @@ def captions_file():
         cap += len(captions["caption"])
     print(cap)
 
-def name():
+def show_authors():
     name_file = read_file.get("posts")
     tedad = 0
     for i in name_file:
@@ -44,13 +43,15 @@ def name():
 
 
 if __name__ == "__main__":
+    json_file = input("مسیر فایل را وارد کنید: \n")
+# E:\New folder\Git\project\practice\home.txt
     if not open_json():
         exit()
     if not read_json():
         exit()
     print("\n:عنوان های فایل")
-    title()
+    show_title()
     print("\nمجموع کپشن های فایل")
     captions_file()
     print("\nمجموع تعداد نویسندگان فایل")
-    name()
+    show_authors()
