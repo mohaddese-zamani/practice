@@ -1,0 +1,150 @@
+[
+ {
+    "id": 1723,
+    "productName": "کفش زنانه SKECHERS GO RUN",
+    "brandId": 5,
+    "categoryId": 46,
+    "parentCategoryId": 5,
+    "price": 28800000,
+    "reduction": 0,
+    "vat": 0,
+    "colors": [
+      {
+        "id": 48,
+        "name": "طوسی",
+        "value": "#A5A5A5",
+        "images": [
+          "https://cdn.dadehfa.ir/144/barcodes/539a1894-4b73-4edf-8295-2785191f4627.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/e3005ff0-10b4-4e1b-a32a-629f11a421dd.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/0d24a911-7224-42c6-b8d7-e2ff99a686ed.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/cd2cb35f-be2f-486b-81f1-efcd791f4a04.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/48c4e14f-6382-48bd-afa4-242a0389e6a6.jpg"
+        ],
+        "sizes": [
+          { "name": "37", "stock": 1, "productVariantId": 3322 },
+          { "name": "39", "stock": 1, "productVariantId": 3322 },
+          { "name": "38", "stock": 0, "productVariantId": 3321 },
+          { "name": "40", "stock": 0, "productVariantId": 3323 }
+        ]
+      },
+      {
+        "id": 49,
+        "name": "مشکی",
+        "value": "#000000",
+        "images": [
+          "https://cdn.dadehfa.ir/144/barcodes/537a721e-cf04-4f08-bc1d-5e22cc18da5c.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/1fbae3d7-1de2-4e45-a10d-349938a97bf8.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/b0278a18-b02c-4ca0-9749-c93e3a4dfa6d.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/5e5d625a-4974-44de-b621-f0b6e3e6b917.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/5a8068b4-c08d-4bcc-854b-3f3448ed2ae6d.jpg"
+        ],
+        "sizes": [
+          { "name": "38", "stock": 2, "productVariantId": 3324 },
+          { "name": "39", "stock": 0, "productVariantId": 3325 }
+        ]
+      },
+      {
+        "id": 105,
+        "name": "آبی نفتی",
+        "value": "#EDEDED",
+        "images": [
+          "https://cdn.dadehfa.ir/144/barcodes/b4fda5b9-c93e-4ee6-a345-5b5e403f6f65.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/c22afe85-c017-418e-91a3-d7bdf878d0b4.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/e1b8104c-2f7b-46b5-b9f9-492b3da9de62.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/08fba3aa-5e01-4614-812d-f5d68c2212b5.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/7c8264d7-0c50-4974-b97a-925dace97a54.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/2ba78289-24fd-48ea-8c08-9cf797a2d8e2.jpg",
+          "https://cdn.dadehfa.ir/144/barcodes/09c6d918-2bb0-45af-92b0-2e5992cbf5d5.jpg"
+        ],
+        "sizes": [
+          { "name": "37", "stock": 1, "productVariantId": 3326 },
+          { "name": "38", "stock": 1, "productVariantId": 3327 }
+        ]
+      }
+    ],
+    "mainImages": [
+      "https://cdn.dadehfa.ir/144/products/4aa2d880-6a2e-48d9-bb16-37f9478d453f.jpg",
+      "https://cdn.dadehfa.ir/144/products/84a69ecc-b7c0-494e-9915-db6761295047.jpg"
+    ],
+    "attributes": [
+      {
+        "title": "رنگ",
+        "type": "select",
+        "options": ["طوسی", "مشکی", "آبی نفتی"]
+      },
+      {
+        "title": "سایز",
+        "type": "select",
+        "options": ["37", "38", "39", "40"]
+      }
+    ]
+  },
+  {
+    "id": 2008,
+    "productName": "درس زنانه نخی نایک 4939",
+    "brandId": 1,
+    "categoryId": 15,
+    "parentCategoryId": 2,
+    "price": 13800000,
+    "reduction": 0,
+    "vat": 0,
+    "colors": [
+      {
+        "id": 105,
+        "name": "آبی نفتی",
+        "value": "#EDEDED",
+        "images": [
+          "https://cdn.dadehfa.ir/144/barcodes/814a87a8-e53d-4b42-b93f-5404bf780556.webp",
+          "https://cdn.dadehfa.ir/144/barcodes/c95356a1-a064-41c2-b77a-2abbaebdc9e9.webp",
+          "https://cdn.dadehfa.ir/144/barcodes/ea928049-ff69-4d41-b60c-3db73c23e414.webp"
+        ],
+        "sizes": [
+          {
+            "name": "37",
+            "stock": 0,
+            "productVariantId": 3326
+          },
+          {
+            "name": "39",
+            "stock": 0,
+            "productVariantId": 3328
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "name": "صورتی",
+        "value": "#F8B1DE",
+        "images": [
+          "https://cdn.dadehfa.ir/144/barcodes/26e81772-cf89-4b83-9322-3b9770716101.webp",
+          "https://cdn.dadehfa.ir/144/barcodes/774b6aae-4e2f-4056-bc62-de21bd192dfe.webp",
+          "https://cdn.dadehfa.ir/144/barcodes/fcede841-a833-4c1b-b1ba-7b0af95ae03a.webp",
+          "https://cdn.dadehfa.ir/144/barcodes/92fad492-44bb-4005-80ca-75bb413e12a3.webp"
+        ],
+        "sizes": [
+          {
+            "name": "38",
+            "stock": 0,
+            "productVariantId": 3330
+          }
+        ]
+      }
+    ],
+    "mainImages": [
+      "https://cdn.dadehfa.ir/144/products/9120.jpg",
+      "https://cdn.dadehfa.ir/144/products/9121.jpg"
+    ],
+    "attributes": [
+      {
+        "title": "رنگ",
+        "type": "select",
+        "options": ["آبی نفتی", "صورتی"]
+      },
+      {
+        "title": "سایز",
+        "type": "select",
+        "options": ["37", "38", "39", "40"]
+      }
+    ]
+  }
+]
